@@ -1,9 +1,35 @@
 import "./navbar.css";
 function Navbar() {
     return (
-        <div className="navbar">
-            Menu goes here
-        </div>
+        <header className="navbarcomponent">
+            <h1 className="title">IoT Market</h1>
+            <nav className="header-nav">
+                <a href="/">Link 1</a>
+                <a href="/">Link 2</a>
+                <a href="/">Link 3</a>
+            </nav>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <div className="container-fluid">
+                    <a className="navbar-brand" href="/">IoT Market</a>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                        <ul className="navbar-nav">
+                            <li className="nav-item">
+                                <a href="/">Link 1</a>
+                            </li>
+                            <li className="nav-item">
+                                <a href="/">Link 2</a>
+                            </li>
+                            <li className="nav-item">
+                                <a href="/">Link 3</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
     );
 }
 
