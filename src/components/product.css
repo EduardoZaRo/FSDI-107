@@ -13,3 +13,8 @@
 .product:hover{
     border-color:rgb(0, 255, 13);
 }
+
+.product img{
+    height:200px;
+    width:210px;
+}
