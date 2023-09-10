@@ -2,7 +2,7 @@
     display:flex;
     justify-content:space-between;
     align-items: center;
-    background:lightgray;
+    background:green;
     min-height:60px;
     position:sticky;
     top: 0px;
@@ -10,6 +10,10 @@
     
 }
 
+.navbarcomponent h1,
+.navbarcomponent nav > a{
+    color:white;
+}
 
 .navbarcomponent h2{
     text-align:center;
@@ -27,9 +31,6 @@
     padding-right:10px;
 }
 
-.navbarcomponent nav > a{
-    color:black;
-}
 .navbarcomponent a{
     text-decoration:none;
     text-align:center;
@@ -60,20 +61,23 @@
     .navbarcomponent .header-nav{
         display:none;
     }
+    
+
     .navbarcomponent .navbar{
         padding:20px;
         display:block;
         width:100%;
-        background-color:lightgray!important;
+        background-color:green!important;
     }
     .navbarcomponent nav a{
-        color:black;
+        color:white!important;
     }
     .navbarcomponent .nav-item{
         padding:10px 20px;
     }
-    .navbarcomponent button.navbar-toggler.collapsed{
+    .navbarcomponent button.navbar-toggler.collapsed, 
+    .navbarcomponent button.navbar-toggler{
         background:white;
-        border:1px solid black;
+        border:1px solid white;
     }
 }

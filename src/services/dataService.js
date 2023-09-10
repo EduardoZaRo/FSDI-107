@@ -48,6 +48,13 @@ var catalog = [
         "image": "LEPOTATO.jpg",
         "_id": "7"
     },
+    {
+        "title": "Oled 0.96' bicolor",
+        "category": "IoT Module",
+        "price":2,
+        "image": "OLED096.jpg",
+        "_id": "8"
+    },
 ];
 
 class DataService {

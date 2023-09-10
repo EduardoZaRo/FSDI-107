@@ -10,11 +10,21 @@
 .product label{
     display:block;
 }
-.product:hover{
-    border-color:rgb(0, 255, 13);
+
+.product:hover label,
+.product:hover h5{
+    color:green;
+}
+.product .product-img-container{
+    height:200px;
+    /* width:210px; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
-.product img{
-    height:200px;
-    width:210px;
+.product .product-img-container > img{
+    max-height:200px;
+    max-width:210px;
+    
 }

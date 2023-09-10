@@ -1,12 +1,12 @@
 import "./navbar.css";
+
 function Navbar() {
     return (
         <header className="navbarcomponent">
             <h1 className="title">IoT Market</h1>
             <nav className="header-nav">
-                <a href="/">Link 1</a>
-                <a href="/">Link 2</a>
-                <a href="/">Link 3</a>
+                <a href="/">Login</a>
+                <a href="/">Register</a>
             </nav>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
@@ -17,13 +17,10 @@ function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a href="/">Link 1</a>
+                                <a href="/">Login</a>
                             </li>
                             <li className="nav-item">
-                                <a href="/">Link 2</a>
-                            </li>
-                            <li className="nav-item">
-                                <a href="/">Link 3</a>
+                                <a href="/">Register</a>
                             </li>
                         </ul>
                     </div>
